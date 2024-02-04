@@ -1,4 +1,4 @@
-echo "import itertools
+import itertools
 from mnemonic import Mnemonic
 import time
 
@@ -33,4 +33,4 @@ for index, line in enumerate(words):
 			pass
 print('total permutations : ', index, end='\r')
 elapsed_time = time.time() - st
-print('Execution time:', time.strftime('%H:%M:%S', time.gmtime(elapsed_time)))" > x.py
+print('Execution time:', time.strftime('%H:%M:%S', time.gmtime(elapsed_time)))
